@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML render</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="XML_Dot.css">
+</head>
+
+<body>
+    <h1>Overpass Example</h1>
+    <div id="canvasContainer">
+        <canvas id="myCanvas"></canvas>
+        <div class="dropdown">
+            <button class="dropbtn">Zoom</button>
+            <div class="dropdown-content">
+                <a id="zoomInButton">Zoom In</a>
+                <a id="zoomOutButton">Zoom Out</a>
+            </div>
+        </div>
+    </div>
+    <script src="ServiceWorkerSetup.js"></script>
+    <script src="ServiceWorkers.js"></script>
+    <script src="DrawingNodes.js"></script>
+    <script src="Zoom.js"></script>
+    <script src="Pan.js"></script>
+</body>
+
+</html>

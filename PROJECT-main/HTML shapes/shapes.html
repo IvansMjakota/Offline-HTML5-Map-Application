@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Sets up the section where the shapes will be drawn to adapt to screen size-->
+    <link rel="stylesheet" href="shapes.css">
+    <title>Drawing Shapes</title>
+</head>
+<body>
+    <section class="container"> <!--Create a container that allows user to select One of the 3 shapes to be drawn-->
+        <div id="toolbar">
+            <h1>Draw Shapes</h1>
+            <label for="shape">Select Shape</label>
+            <select id="shape" name="shape">
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+                <option value="square">Square</option>
+            </select>
+            <label for="stroke">Colour</label> <!--Colour selector-->
+            <input id="stroke" name="stroke" type="color">
+            <label for="linewidth">Line Width</label> <!--Line width selector-->
+            <input id="linewidth" name="linewidth" type="number" value="10">
+            <button id="drawButton">Draw</button><!--Draw button, when pressed the shape will be drawn-->
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+    <script src="shapes.js"></script>
+</body>
+</html>

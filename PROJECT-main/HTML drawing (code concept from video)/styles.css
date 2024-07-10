@@ -1,0 +1,49 @@
+/*Code taken and edited from https://youtu.be/mRDo-QXVUv8?si=ca-_vZoIk8UU_TZo*/
+
+body { /*creates a foundational style for a webpage*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /*Hides any content that overflows the 'body' element*/
+    color: white; 
+}
+h1 {/*Creates a gradient background for h1 using vendor-prefixed and standard properties*/
+    background: #7F7FD5;
+    background: linear-gradient(to right, #ffffff, #b96aba, #410131);/*Creates a linear gradient going left-to-right*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.container { /*The container class will occupy full height of screen and enables a flex layout within container itself*/
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {/*Stylises the toolbar*/
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    width: 150px;
+    background-color: #000000;
+}
+
+#toolbar * {/*Adds margin for every element inside the toolbar*/
+    margin-bottom: 20px;
+}
+
+#toolbar label {/*Sets font size for label*/
+    font-size: 20px;
+    color:#ffffff
+}
+
+#toolbar input {/*Makes input element span whole widht of the toolbar*/
+    width: 100%;
+}
+
+#toolbar button {/*Styles the buttons inside the toobar*/
+    background-color: #1565c0;
+    border: none; /*removes the border of button*/
+    color:white;
+    padding: 2px;
+}

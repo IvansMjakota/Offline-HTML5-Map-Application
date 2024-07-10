@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <![CDATA[
+        <osm version="0.6" generator="CGImap 0.8.9 (1855398 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+            <relation id="9274287" visible="true" version="1" changeset="66738811" timestamp="2019-01-29T13:29:18Z" user="LivingWithDragons" uid="7630">
+                <member type="way" ref="666914693" role="outer"/>
+                <member type="node" ref="45479715" role="admin_centre"/>
+                <tag k="admin_level" v="11"/>
+                <tag k="boundary" v="place"/>
+                <tag k="name" v="Egham"/>
+                <tag k="place" v="town"/>
+                <tag k="type" v="boundary"/>
+            </relation>
+        </osm>
+    ]]>
+</data>

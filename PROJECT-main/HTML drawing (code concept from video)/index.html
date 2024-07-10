@@ -1,0 +1,26 @@
+<!--The code bellow is largely taken and edited based on the video https://youtu.be/mRDo-QXVUv8?si=ca-_vZoIk8UU_TZo-->
+<html lang="en">
+<head>
+    <meta charset = "UTF-8"><!--Character encoding for handling various languages and special characters. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Sets X-UA-Compatible header for Internet Explorer, indicating that the page should be displayed in the latest available mode for the browser -->
+    <meta name="viewpoint"content="width=device-width, intial-scale=1.0"><!--Defines the viewport settings for the page, specifying that the width should adjust to the device's screen width-->
+    <link rel="stylesheet" href="styles.css"><!--Utilise the CSS from file styles.ccs-->
+    <title>Drawing app</title>
+</head>
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <h1>Draw</h1>
+            <label for="stroke">Stroke</label><!--Label that allows the user to select the colour they will draw with-->
+            <input id="stroke" name="stroke" type="color">
+            <label for= "linewidth">Line Width</label> <!--Label that the user can use to select line width-->
+            <input id="linewidth" name="linewidth" type="number" value="5">
+        </div>
+        <div class="drawing-board"> <!--Creates a Canvas the user is able to draw on-->
+            <canvas id="drawing-board"></canvas>
+
+        </div>
+    </section>
+    <script src="./index.js"></script><!--Utilise JavaScript in file ./index.js-->
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* toolbar edited based on https://youtu.be/mRDo-QXVUv8?si=ca-_vZoIk8UU_TZo*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: rgb(255, 255, 255); /* Colour for "Draw Shapes */
+    background-color: #333; /* Background colour */
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toolbar { /* Toolbar for all buttons and other selections */
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 150px;
+    background-color: #000000;
+    border-right: 2px solid #555;
+}
+
+#toolbar label { /* Style for labels in toolbar */
+    font-size: 20px;
+    color: #fff;
+}
+
+#toolbar select, /* Style for the select AND input elements in toolbar */
+#toolbar input {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#toolbar button {
+    background-color: #c07915;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.drawing-board { /* Styles the element with the class 'drawing-board' */
+    flex: 1; /* The element takes up all available space within container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas { /* Styles all canvas elements */
+    border: 5px solid #555;
+    background-color: #fff;
+}
