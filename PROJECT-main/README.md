@@ -8,7 +8,7 @@ In order to test the code out in Visual Studio Code download the Live Server (Ri
 *Interim Code*
 
 HTML drawing:
-MAJORITY OF THE CODE DIRECTLY TAKEN FROM THE VIDEO https://youtu.be/mRDo-QXVUv8?si=CR9FKF_tI1zAEYby AND USED PURELY AS INSPIRATION FOR HTML SHAPE CODE AS WELL AS TO TEST OUT DIFFERENT FEATURES OF THE CANVAS
+HTML shape code as well as to test out different features of the canvas
 
 HelloWorld:
 After right clicking the html file and opening it using a live server you can see the service workers active if you press f12 on the keyboard and go to console to see the displayed messages regarding the current status of service workers. If any information is written into the html file and updated while the server is live it will update accordingly and get cached.
